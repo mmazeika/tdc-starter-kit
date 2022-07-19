@@ -28,7 +28,7 @@ def train_models(args):
 
     training_kwargs = {}
     # MNIST requires more epochs of fine-tuning for the evasive Trojans baseline to work well
-    training_kwargs['num_epochs'] = 20 if args.trojan_type == 'evasive_trojan' else 10
+    training_kwargs['num_epochs'] = 20 if args.trojan_type == 'trojan_evasion' else 10
     training_kwargs['batch_size'] = 256
     training_kwargs['dataset'] = 'MNIST'
     
