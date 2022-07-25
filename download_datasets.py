@@ -1,6 +1,6 @@
 import requests
 
-record_id = "6812318"  # Zenodo ID (https://zenodo.org/record/6812318)
+record_id = "6894041"  # Zenodo ID (https://zenodo.org/record/6894041)
 
 r = requests.get(f"https://zenodo.org/api/records/{record_id}")
 download_urls = [f['links']['self'] for f in r.json()['files']]
