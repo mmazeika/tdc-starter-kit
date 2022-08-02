@@ -10,4 +10,4 @@ The `utils.py` file contains helper functions for loading new models, generating
 
 ## How to Use
 
-Clone this repository, then download the competition datasets and unzip adjacent to the repository. Ensure that your PyTorch and Jupyter versions are up-to-date (fairly recent). You can now run one of the example notebooks or start building your own submission.
+Clone this repository, then download the competition datasets and unzip adjacent to the repository. Ensure that your Jupyter version is up-to-date (fairly recent). To avoid errors with model incompatibility, please use PyTorch version 1.11.0. You can now run one of the example notebooks or start building your own submission.
