@@ -1,4 +1,4 @@
-# Trojan Detection Competition Starter Kit
+# Trojan Detection Challenge Starter Kit
 
 **Update:** The validation phase annotations are available [here](https://drive.google.com/drive/folders/1362q69BGJktPYKOXRt0fmp4eIlMi8-Ek?usp=share_link).
 
